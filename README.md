@@ -9,12 +9,14 @@ The app has the following **features**:
 - Outputing the modified guitar signal to the device's speaker.
 - Generating effect control UI components with Switchboard UI
 
-:::note
-This example uses the [Superpowered Extension](/docs/extensions/superpowered/).
-:::
-
 ## Video Tutorial
 
 In the following video we build a guitar effect app from scratch for iOS.
 
 https://www.youtube.com/embed/4Gj_3DUQwt0?si=_1Ly2_CDEi7-7mWt
+
+## Important Links
+
+<a href="https://docs.switchboard.audio/docs/examples/guitar-effect-app/" target="_blank">Find more info on the Guitar Effect App HERE</a>
+
+<a href="https://docs.switchboard.audio/" target="_blank">Find more info on the Switchboard SDK HERE</a>
