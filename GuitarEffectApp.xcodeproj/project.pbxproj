@@ -10,6 +10,7 @@
 		985D73A62A7482ED001A0DFF /* SwitchboardSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 985D73A52A7482ED001A0DFF /* SwitchboardSDK */; };
 		985D73A82A7482ED001A0DFF /* SwitchboardSuperpowered in Frameworks */ = {isa = PBXBuildFile; productRef = 985D73A72A7482ED001A0DFF /* SwitchboardSuperpowered */; };
 		985D73AA2A7482ED001A0DFF /* SwitchboardUI in Frameworks */ = {isa = PBXBuildFile; productRef = 985D73A92A7482ED001A0DFF /* SwitchboardUI */; };
+		986BD5C12B8CD2AA00AF212E /* GuitarEffectAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986BD5C02B8CD2AA00AF212E /* GuitarEffectAppUITests.swift */; };
 		98F7AF5A2A488183004D526B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F7AF592A488183004D526B /* AppDelegate.swift */; };
 		98F7AF5C2A488183004D526B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F7AF5B2A488183004D526B /* SceneDelegate.swift */; };
 		98F7AF5E2A488183004D526B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F7AF5D2A488183004D526B /* ViewController.swift */; };
@@ -19,7 +20,19 @@
 		98F7AF7D2A488DCF004D526B /* GuitarEffectEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F7AF7C2A488DCF004D526B /* GuitarEffectEngine.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		986BD5C42B8CD2AA00AF212E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F7AF4E2A488183004D526B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98F7AF552A488183004D526B;
+			remoteInfo = GuitarEffectApp;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		986BD5BE2B8CD2AA00AF212E /* GuitarEffectAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuitarEffectAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		986BD5C02B8CD2AA00AF212E /* GuitarEffectAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarEffectAppUITests.swift; sourceTree = "<group>"; };
 		98F7AF562A488183004D526B /* GuitarEffectApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuitarEffectApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F7AF592A488183004D526B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98F7AF5B2A488183004D526B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +45,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		986BD5BB2B8CD2AA00AF212E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		98F7AF532A488183004D526B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -45,10 +65,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		986BD5BF2B8CD2AA00AF212E /* GuitarEffectAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				986BD5C02B8CD2AA00AF212E /* GuitarEffectAppUITests.swift */,
+			);
+			path = GuitarEffectAppUITests;
+			sourceTree = "<group>";
+		};
 		98F7AF4D2A488183004D526B = {
 			isa = PBXGroup;
 			children = (
 				98F7AF582A488183004D526B /* GuitarEffectApp */,
+				986BD5BF2B8CD2AA00AF212E /* GuitarEffectAppUITests */,
 				98F7AF572A488183004D526B /* Products */,
 				98F7AF6D2A4881B3004D526B /* Frameworks */,
 			);
@@ -58,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				98F7AF562A488183004D526B /* GuitarEffectApp.app */,
+				986BD5BE2B8CD2AA00AF212E /* GuitarEffectAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,6 +117,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		986BD5BD2B8CD2AA00AF212E /* GuitarEffectAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 986BD5C62B8CD2AA00AF212E /* Build configuration list for PBXNativeTarget "GuitarEffectAppUITests" */;
+			buildPhases = (
+				986BD5BA2B8CD2AA00AF212E /* Sources */,
+				986BD5BB2B8CD2AA00AF212E /* Frameworks */,
+				986BD5BC2B8CD2AA00AF212E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				986BD5C52B8CD2AA00AF212E /* PBXTargetDependency */,
+			);
+			name = GuitarEffectAppUITests;
+			productName = GuitarEffectAppUITests;
+			productReference = 986BD5BE2B8CD2AA00AF212E /* GuitarEffectAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		98F7AF552A488183004D526B /* GuitarEffectApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98F7AF6A2A488183004D526B /* Build configuration list for PBXNativeTarget "GuitarEffectApp" */;
@@ -116,9 +164,13 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1430;
+				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					986BD5BD2B8CD2AA00AF212E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 98F7AF552A488183004D526B;
+					};
 					98F7AF552A488183004D526B = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
@@ -141,11 +193,19 @@
 			projectRoot = "";
 			targets = (
 				98F7AF552A488183004D526B /* GuitarEffectApp */,
+				986BD5BD2B8CD2AA00AF212E /* GuitarEffectAppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		986BD5BC2B8CD2AA00AF212E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		98F7AF542A488183004D526B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -159,6 +219,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		986BD5BA2B8CD2AA00AF212E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				986BD5C12B8CD2AA00AF212E /* GuitarEffectAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		98F7AF522A488183004D526B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -171,6 +239,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		986BD5C52B8CD2AA00AF212E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98F7AF552A488183004D526B /* GuitarEffectApp */;
+			targetProxy = 986BD5C42B8CD2AA00AF212E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		98F7AF5F2A488183004D526B /* Main.storyboard */ = {
@@ -192,6 +268,51 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		986BD5C72B8CD2AA00AF212E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NQ2VLM7NM7;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.synervoz.GuitarEffectAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GuitarEffectApp;
+			};
+			name = Debug;
+		};
+		986BD5C82B8CD2AA00AF212E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NQ2VLM7NM7;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.synervoz.GuitarEffectAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GuitarEffectApp;
+			};
+			name = Release;
+		};
 		98F7AF682A488183004D526B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -316,11 +437,12 @@
 				DEVELOPMENT_TEAM = NQ2VLM7NM7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GuitarEffectApp/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app needs to receive audio from a guitar.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -344,11 +466,12 @@
 				DEVELOPMENT_TEAM = NQ2VLM7NM7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GuitarEffectApp/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app needs to receive audio from a guitar.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -365,6 +488,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		986BD5C62B8CD2AA00AF212E /* Build configuration list for PBXNativeTarget "GuitarEffectAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				986BD5C72B8CD2AA00AF212E /* Debug */,
+				986BD5C82B8CD2AA00AF212E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		98F7AF512A488183004D526B /* Build configuration list for PBXProject "GuitarEffectApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -390,8 +522,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/switchboard-sdk/switchboard-sdk-ios";
 			requirement = {
-				branch = develop;
-				kind = branch;
+				kind = exactVersion;
+				version = 1.8.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
