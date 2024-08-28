@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        SBSwitchboardSDK.initialize(withClientID: "Synervoz", clientSecret: "GuitarEffectApp")
+        SBSwitchboardSDK.initialize(withAppID: "Synervoz", appSecret: "GuitarEffectApp")
         SBSuperpoweredExtension.initialize(withLicenseKey: "ExampleLicenseKey-WillExpire-OnNextUpdate")
         return true
     }
